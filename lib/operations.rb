@@ -14,9 +14,5 @@ def not_safe?(speed)
   speed < 40 || speed > 60 ? true : false
 end
 
-irb(main):027:0> not_safe? 30
-  => true
-irb(main):028:0> not_safe? 50
-  => false
   
 end
